@@ -1,0 +1,22 @@
+.js-image-info {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.body {
+  background-color: #636e72;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+html {
+  overflow: hidden;
+}

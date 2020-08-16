@@ -1,0 +1,28 @@
+.js-weather-container {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 5px 10px;
+  padding-bottom: 20px;
+}
+
+.js-weather-icon {
+  display: block;
+  width: 40%;
+  height: auto;
+  float: left;
+}
+
+.css-weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

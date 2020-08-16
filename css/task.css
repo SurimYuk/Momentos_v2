@@ -1,0 +1,63 @@
+.js-pending,
+.js-finished {
+  width: 25vw;
+  height: 25vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  padding: 5px 10px;
+  padding-top: 15px;
+  margin: 15px;
+}
+
+.js-pendingList,
+.js-finishedList {
+  width: 95%;
+  height: 75%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.task h3 {
+  text-align: center;
+  margin: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+ul li {
+  color: white;
+  padding: 0px 10px;
+  margin-right: 10px;
+}
+
+ul li:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+ul li span {
+  padding-right: 10px;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #868686;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  width: 15px;
+  background-color: white;
+  border-radius: 4px;
+}

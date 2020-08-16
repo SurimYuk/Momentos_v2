@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentos_v2</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/clock.js"></script>
+    <script defer src="js/greeting.js"></script>
+    <script defer src="js/toDo.js"></script>
+    <script defer src="js/weather.js"></script>
+    <script defer src="js/background.js"></script>
+    <script defer src="js/setting.js"></script>
+  </head>
+  <body>
+    <div class="center">
+      <h1 class="js-clock"></h1>
+      <form class="js-greetingForm">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h3 class="js-greeting"></h3>
+      <div class="js-toDo">
+        <form class="js-toDoForm">
+          <input type="text" placeholder="Write a to do here." />
+        </form>
+        <div class="task">
+          <div class="js-pending">
+            <h3>Pending</h3>
+            <ul class="js-pendingList"></ul>
+          </div>
+          <div class="js-finished">
+            <h3>Finished</h3>
+            <ul class="js-finishedList"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="js-weather-container">
+      <div class="css-weather">
+        <img class="js-weather-icon"></img>
+        <span class="js-weather"></span>
+      </div>
+      <div class="js-location"></div>
+    </div>
+    <span class="js-image-info"></span>
+    <button class="js-settingBtn" value="⚙️">⚙️</button>
+    <div class="js-setting">
+      <button class="logoutBtn">Logout</button>
+      <button class="contactBtn">Contact: re4851900@gmail.com</button>
+    </div>
+  </body>
+</html>

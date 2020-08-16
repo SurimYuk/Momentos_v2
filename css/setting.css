@@ -1,0 +1,60 @@
+.js-setting {
+  display: none;
+  width: 15vw;
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  position: absolute;
+  right: 30px;
+  bottom: 35px;
+  border-radius: 4px;
+}
+
+.showSetting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logoutBtn,
+.contactBtn {
+  color: white;
+  font-size: 1.2em;
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.contactBtn {
+  font-size: 0.8em;
+}
+
+.logoutBtn:hover,
+.contactBtn:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.js-settingBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 1.2em;
+  height: auto;
+  border: 0;
+  outline: 0;
+  font-size: 30px;
+}
+
+@keyframes sizeUp {
+  from {
+    font-size: 30px;
+  }
+  to {
+    font-size: 50px;
+  }
+}
+
+.js-settingBtn:active {
+  animation: sizeUp 0.3s linear;
+}

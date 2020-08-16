@@ -1,0 +1,43 @@
+.center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-clock {
+  font-size: 5rem;
+  margin: 0px;
+  color: white;
+}
+
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 30px;
+}
+
+input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+@keyframes gradation {
+  from {
+    border-bottom-color: rgb(71, 69, 69);
+  }
+  to {
+    border-bottom-color: white;
+  }
+}
+
+input:focus,
+input:active {
+  outline: none;
+  animation: gradation 0.7s linear;
+}

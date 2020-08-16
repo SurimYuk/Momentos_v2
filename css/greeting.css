@@ -1,0 +1,16 @@
+.js-greetingForm,
+.js-greeting,
+.js-toDo {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+.js-greeting {
+  font-size: 1.8rem;
+  margin: 0px;
+  margin-bottom: 30px;
+  color: white;
+}
