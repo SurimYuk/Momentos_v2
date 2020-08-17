@@ -1,6 +1,6 @@
 html {
-  overflow: hidden;
   background-color: #404242;
+  overflow: hidden;
 }
 
 .js-image-info {
@@ -16,8 +16,8 @@ html {
 }
 
 body {
+  margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  margin: 0;
 }
