@@ -20,6 +20,7 @@ input {
   border-bottom: 2px solid white;
   color: white;
   font-size: 30px;
+  text-align: center;
 }
 
 input::placeholder {

@@ -16,9 +16,11 @@ Click this to check ☞ https://surimyuk.github.io/Momentos_v2/
 
 ## Added parts compare to Momentos_v1
 
-- Overall design
-- Responsive web
-- Loading background image with Unsplash API
-- Show background image information
-- Specify to-do list function
-- Add logout function
+- [x] Overall design
+- [] Responsive web
+- [x] Loading background image with Unsplash API
+- [x] Show background image information
+- [x] Specify to-do list function
+- [x] Add logout function
+
+![momentos_screenshot](https://user-images.githubusercontent.com/33217962/90352795-559c5a80-e07f-11ea-82dd-58942cd5eced.PNG)
