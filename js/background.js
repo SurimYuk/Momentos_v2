@@ -21,26 +21,25 @@ function getImageUrl() {
     .then(function (json) {
       const imgCity = json.location.city;
       const imgCountry = json.location.country;
+      const imgUrl = json.urls.regular;
       if (imgCity === null || imgCountry === null) {
         getImageUrl();
       } else {
         setImageInfo(imgCity, imgCountry);
-        localStorage.setItem("url", JSON.stringify(json.urls.regular));
+        paintBgImage(imgUrl);
       }
       return;
     });
 }
 
-function paintBgImage() {
-  getImageUrl();
-  const imgUrl = JSON.parse(localStorage.getItem("url"));
+function paintBgImage(imgUrl) {
   body.style.backgroundImage = `url(${imgUrl})`;
   body.style.backgroundRepeat = "no-repeat";
   body.style.backgroundSize = "cover";
 }
 
 function init() {
-  paintBgImage();
+  getImageUrl();
 }
 
 init();

@@ -19,7 +19,6 @@ function getPositionSuccess(position) {
     latitude,
     longitude,
   };
-  console.log(latitude, longitude);
   showWeather(coordsObj.latitude, coordsObj.longitude);
 }
 
